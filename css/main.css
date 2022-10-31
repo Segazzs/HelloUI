@@ -4,5 +4,146 @@
 /*  
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif; 
+    font-family: 'CircularStd', sans-serif;
 */
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: #050038;
+}
+
+/* HEADER */
+
+header {
+    margin-bottom: 100px;
+}
+
+/* NAV BAR */
+.header__nav {
+    margin-bottom: 50px;
+}
+
+.navbar-collapse {
+    flex-grow: 0!important;
+}
+
+.navbar-nav {
+    gap: 35px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.16;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.21;
+    color: #050038!important;
+}
+
+.nav__buttons-link {
+    display: none;
+}
+
+.nav-btn-color {
+    background-color: white;
+    color: #0d6efd;
+}
+
+.nav__buttons {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-linked {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.16;
+}
+
+.my-btn {
+    padding: 13px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.16;
+    border-radius: 30px;
+}
+
+/* HEADER MAIN */
+
+.main-text {
+    font-size: 76px;
+    font-weight: 900;
+    font-family: 'CircularStd', sans-serif;
+    max-width: 935px;
+    margin: 0 auto;
+}
+
+.main-small-text {
+    font-size: 22px;
+    line-height: 1.45;
+    max-width: 705px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+
+.main_buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.white-button {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+    border: none;
+    color: #0555FF;
+}
+
+.main-img {
+    margin: 0 auto;
+}
+
+/* HEADER SLIDER */
+
+.main_slider {
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+.slider-description {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #5B5E6D;
+    padding-bottom: 20px;
+}
+
+.main_slider {
+    margin-bottom: 50px;
+    max-width: 900px;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 3px;
+    border-radius: 0px;
+}
+
+.header-line {
+    height: 1px;
+    width: 100%;
+    background-color: #5b5e6d25;
+}

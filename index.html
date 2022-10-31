@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/owl-carusel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carusel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
@@ -25,8 +27,81 @@
 </head>
 <body>
 
-    <h1 class="text-uppercase">Hello, world!</h1>
+    <header>
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light nav__header">
+                        <div class="container-fluid justify-content-betwen">
+                            <a class="navbar-brand" href="#">HelloUI</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link active" aria-current="page" href="#">Docs</a>
+                                    <a class="nav-link" href="#">Tools</a>
+                                    <a class="nav-link" href="#">Freatures</a>
+                                    <a class="nav-link" href="#">Pricing</a>
+                                    <a class="nav-link" href="#">Jobs</a>
+                                    <div class="nav__buttons-link">
+                                        <button type="button" class="btn btn-primary btn-sm my-btn nav-btn-color">Sign in</button>
+                                        <button type="button" class="btn btn-primary btn-sm my-btn mx-4">Large button</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav__buttons">
+                                <p class="nav-linked">Sign in</p>
+                                <button type="button" class="btn btn-primary btn-sm my-btn">Large button</button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
 
+        <div class="header__main">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h2 class="main-text text-center">
+                            Grow up your sells with us.
+                        </h2>
+
+                        <p class="main-small-text text-center">
+                            Build one project that runs natively on all your term now 
+                            users' devices to turn for that you can do.
+                        </p>
+
+                        <div class="main_buttons">
+                            <button type="button" class="btn btn-primary btn-sm my-btn mx-3">Try for Free</button>
+                            <button type="button" class="btn btn-primary btn-sm my-btn mx-3 white-button">Discover in Video</button>
+                        </div>
+
+                        <img src="img/header/header.jpg" alt="header" class="rounded mx-auto d-block img-fluid mb-5">
+
+                        <div class="main_slider row justify-content-center">
+                            <p class="slider-description text-center">More than 1.8 million people across 50,000 companies choose Spellon</p>
+                            <!-- Set up your HTML -->
+                            <div class="owl-carousel owl-theme col-11">
+                                <div> <img src="img/firms/jll.svg" alt="jll" class="img-thumbnail"> </div>
+                                <div> <img src="img/firms/netflix.svg" alt="netflix" class="img-thumbnail"> </div>
+                                <div> <img src="img/firms/hubspot.svg" alt="hubspot" class="img-thumbnail"> </div>
+                                <div> <img src="img/firms/atlassian.svg" alt="atlassian" class="img-thumbnail"> </div>
+                                <div> <img src="img/firms/juniper.svg" alt="juniper" class="img-thumbnail"> </div>
+                                <div> <img src="img/firms/lacoste.svg" alt="lacoste" class="img-thumbnail"> </div>
+                            </div>
+                        </div>
+
+                        <div class="header-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
