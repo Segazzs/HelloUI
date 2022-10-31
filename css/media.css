@@ -32,4 +32,16 @@
     .slider-description {
         font-size: 12px;
     }
+    
+}
+
+@media (max-width: 400px) {
+    /* HEADER */
+
+    /* HEADER NAV */
+
+    .my-btn {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
 }
