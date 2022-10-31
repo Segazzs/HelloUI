@@ -20,6 +20,44 @@
     .my-btn {
         font-size: 14px;
     }
+
+    .advantage-text {
+        font-size: 18px;
+    }
+
+    /* MAIN */
+
+    /* DEVELOP */
+
+    .block_name {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .block_text {
+        font-size: 16px;
+    }
+    .link-more {
+        font-size: 14px;
+    }
+
+    /* TWITER */ 
+    .twiter-text {
+        margin-bottom: 10px;
+    }
+    
+    .twiter-name {
+        font-size: 40px;
+    }
+
+    /* FOOTER */
+
+    .form-footer {
+        padding: 20px 26px;
+    }
+
+    .btn-footer {
+        padding: 20px 46px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -31,5 +69,121 @@
     }
     .slider-description {
         font-size: 12px;
+    }
+
+    /* MAIN */
+
+    /* ADVANTAGE */
+
+    .advantage_name {
+        font-size: 32px;
+    }
+    .advantage-text {
+        font-size: 16px;
+    }
+    .see-how-text {
+        padding: 8px 14px;
+    }
+    .see-how-text::before {
+        margin-right: 7px;
+    }
+
+
+    /* DEVELOP */
+
+    .block_name {
+        font-size: 65px;
+    }
+    .block_text {
+        font-size: 15px;
+    }
+    .link-more {
+        font-size: 13px;
+    }
+
+    /* TWITER */ 
+
+    .twiter-text {
+        font-size: 12px;
+    }
+
+    .twiter-name {
+        font-size: 35px;
+    }
+    
+    /* FOOTER */
+
+    .footer-name {
+        font-size: 40px;
+    }
+
+    .form-footer {
+        font-size: 18px;
+        padding: 16px 22px;
+    }
+
+    .btn-footer {
+        font-size: 18px;
+        padding: 16px 42px;
+    }
+}
+
+@media (max-width: 550px) {
+    /* HEADER */
+
+    /* HEADER NAV */
+
+    .my-btn {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+
+    .main_buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* MAIN */
+
+    /* ADVANTAGE */
+
+    .advantage_name {
+        font-size: 25px;
+    }
+    .advantage-text {
+        font-size: 15px;
+    }
+    .see-how-text {
+        font-size: 13px;
+    }
+
+    /* TWITER */ 
+
+    .twiter-text {
+        font-size: 11px;
+        line-height: 1.5;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .twiter-name {
+        font-size: 35px;
+    }
+
+    /* FOOTER */
+
+    .footer-name {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .form-footer {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+    .btn-footer {
+        font-size: 16px;
+        padding: 12px 38px;
     }
 }
