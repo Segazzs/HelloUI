@@ -28,6 +28,7 @@ header {
 
 .navbar-collapse {
     flex-grow: 0!important;
+    margin-top: 20px;
 }
 
 .navbar-nav {
